@@ -20,3 +20,9 @@ Changes by KL1RL are:
 - Remove the right hand `CTRL` combo key, it was bugging me.
 - Add Brightness Up and Brightness Down on the right hand thumb cluster on the ADJUST layer.
 - Add Mute, Vol Down and Vol Up on LH thumb cluster also on the ADJUST layer.
+
+## Compile and Flash
+
+- Navigate to QMK firmware repo `cd path/to/qmk_firmware`
+- Run `qmk compile -kb redox -km khajash` to compile
+- For each keyboard half, you need to flash the firmware. Connect to computer and run `qmk flash`. Press reset button on back of keybard when prompted
